@@ -61,3 +61,6 @@ buck-out/
 # Expo
 .expo/*
 web-build/
+
+# Weather Two
+keys.js
