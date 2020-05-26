@@ -1,0 +1,17 @@
+{
+  "name": "weathertwo",
+  "displayName": "weathertwo",
+  "expo": {
+    "name": "weathertwo",
+    "slug": "weathertwo",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
