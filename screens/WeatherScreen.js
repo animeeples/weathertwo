@@ -174,7 +174,6 @@ class WeatherScreen extends Component {
   }
 
   async setPrimaryScale() {
-    console.log('setPrimaryScale..');
     await this.setState(prevState => ({
       celsius: !prevState.celsius,
     }));
@@ -192,7 +191,6 @@ class WeatherScreen extends Component {
     )
     .then(res => res.json())
     .then(json => {
-      // console.log(json);
       this.setState({
         city: json.name,
         temperature: json.main.temp,
