@@ -270,7 +270,31 @@ class WeatherScreen extends Component {
         }
         weatherConditionImage = sun;
         break;
-      case 'atmosphere':
+      case 'mist':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'smoke':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'haze':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'dust':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'fog':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'sand':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'ash':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'squall':
+        weatherConditionImage = atmosphere;
+        break;
+      case 'tornado':
         weatherConditionImage = atmosphere;
         break;
       case 'clouds':
